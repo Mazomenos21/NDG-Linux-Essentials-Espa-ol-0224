@@ -184,3 +184,8 @@ Demostración de Habilidades y Atracción de Talento: El código abierto actúa 
 demostrar habilidades, sirviendo como una forma abierta de calificación. Tanto individuos como empresas
 pueden beneficiarse al compartir partes no críticas de su software interno de código abierto,
 atrayendo interés y talento de alta calidad.
+
+
+
+
+**Hasta acá la versión 1.2.0**
