@@ -1,0 +1,186 @@
+## *->Las Principales Aplicaciones de Código Abierto:*
+
+El kernel de Linux puede ejecutar una gran variedad de software a través de muchas plataformas de hardware.
+
+### *Software de servidor:*
+
+Software que no tiene ninguna interacción directa con el monitor y el teclado de la máquina en la que se ejecuta. Su
+propósito es servir de información a otras computadoras llamadas clientes. A veces el software de servidor puede no
+interactuar con otros equipos, sin embrago, va a estar ahí sentado y "procesando" datos.
+
+### *Software de escritorio:*
+
+Un navegador web, editor de texto, reproductor de música u otro software con el que tú interactúas. En muchos casos,
+como un navegador web, el software consultará a un servidor en el otro extremo e interpretará los datos para ti. Aquí,
+el software de escritorio es el cliente.
+
+### *Herramientas:*
+
+Una categoría adicional de software que existe para que sea más fácil gestionar el sistema. Puedes tener una herramienta
+que te ayude a configurar la pantalla o algo que proporcione un shell de Linux o incluso herramientas más sofisticadas
+que convierten el código fuente en algo que la computadora pueda ejecutar.
+
+***
+
+## ->Aplicaciones de Servidor:
+
+Linux sobresale en la ejecución eficiente y confiable de aplicaciones de servidor, siendo crucial identificar el tipo de
+servicio a proporcionar. En el ámbito de servidores web, Apache y nginx son líderes, con WordPress como ejemplo
+dinámico. En el ámbito del correo electrónico, el Agente de Transferencia de Correo (MTA) como sendmail y Postfix, junto
+con servidores POP/IMAP como Dovecot y Cyrus IMAP, desempeñan funciones clave.
+
+Para compartir archivos, Samba se destaca al simular una máquina Windows en Linux, mientras que Netatalk facilita el
+servidor de archivos para sistemas Apple. El Sistema de Archivos de Red (NFS) brinda compatibilidad nativa de UNIX para
+compartir archivos. La gestión de directorios se logra mediante el Sistema de Nombres de Dominio (DNS) y el Protocolo
+Ligero de Acceso a Directorios (LDAP), donde OpenLDAP es prominente. El Protocolo de Configuración Dinámica de Host (
+DHCP) asigna direcciones IP automáticamente.
+
+En la gestión de bases de datos, MySQL y PostgreSQL son destacadas, utilizando SQL para consultas. En resumen, Linux se
+erige como una plataforma versátil y robusta para una variedad de servicios de servidor, desde web hasta correo
+electrónico, compartición de archivos, directorios y bases de datos.
+
+---
+
+## ->Aplicaciones de Escritorio:
+
+El ecosistema de Linux abarca una diversidad de aplicaciones de escritorio, incluyendo juegos, herramientas creativas y
+aplicaciones de productividad. Antes de explorar aplicaciones individuales, es esencial comprender el entorno de
+escritorio, donde X Window (X11) posibilita la operación gráfica con la entrada de teclado y ratón. Los administradores
+de ventanas, como Compiz y FVWM, junto con los entornos de escritorio KDE y GNOME, transforman una estación de trabajo
+de solo texto en un escritorio gráfico.
+
+Las suites ofimáticas, clave para la productividad, están representadas por OpenOffice y LibreOffice, con raíces en el
+proyecto StarOffice adquirido por Sun Microsystems en 1999. La competencia entre Firefox y Google Chrome destaca en la
+navegación web, fomentando mejoras continuas y ofreciendo opciones sólidas para los usuarios.
+
+Mozilla, conocido por Firefox, también presenta Thunderbird, un cliente de correo electrónico integral. Evolution y
+KMail son opciones adicionales, garantizando la estandarización a través de POP, IMAP y correo electrónico local. Para
+las necesidades creativas, Blender, GIMP y Audacity sobresalen en la creación de películas 3D, manipulación de imágenes
+2D y edición de audio, mostrando su relevancia en diversos campos, desde películas independientes hasta producciones de
+Hollywood.
+
+
+
+***
+
+## ->Herramientas de Consola:
+
+La evolución de UNIX refleja la interconexión entre las habilidades de administración de sistemas y
+desarrollo de software. En el núcleo de la interacción con Linux se encuentra el shell,
+actuando como interfaz para comandos y ejecuciones. El ejemplo muestra un comando para listar y
+eliminar archivos en un directorio.
+
+Linux ofrece diversas opciones de shells, siendo Bourne shell y C shell las principales.
+Bash (Bourne Again Shell) es el predeterminado, pero tcsh, Korn shell (ksh) y zsh son alternativas populares.
+La elección del shell es en gran medida personal y puede influir en la productividad del usuario.
+
+La diversidad también se refleja en los editores de texto, con vi (vim) y emacs como opciones poderosas pero complejas.
+Pico y nano ofrecen edición básica para usuarios menos experimentados. Aunque aprender lo básico de vi es aconsejable,
+dada su presencia en todos los sistemas Linux.
+
+La gestión de software en Linux implica la instalación, desinstalación y actualización.
+Las distribuciones simplificaron este proceso mediante paquetes, y los administradores de paquetes
+como dpkg y apt-get en Debian, y rpm y yum en sistemas Red Hat, facilitan el seguimiento y la gestión de software,
+descargando actualizaciones desde repositorios remotos. Este aspecto será abordado en detalle más adelante.
+
+***
+
+## ->Herramientas de Desarrollo: Los lenguajes informáticos proporcionan una manera para que un programador
+
+ingrese instrucciones en un formato más legible por el ser humano y que tales instrucciones sean eventualmente
+traducidas en algo que la computadora entiende. Los lenguajes pertenecen a uno de los dos campos: interpretado
+o compilado. Un lenguaje interpretado traduce el código escrito en código de computación mientras se ejecuta
+el programa, y el lenguaje compilado se traduce todo a la vez.
+
+***
+
+## ->Entendiendo el Software de Código Abierto y el Licenciamiento:Linux pertenece a Linus Torvalds. Él ha colocado
+
+el código bajo una licencia GNU Public License versión 2 (GPLv2). Esta licencia, entre otras cosas, dice que el
+código fuente debe hacerse disponible a quien lo pida y que puedes hacer cualquier cambio que desees. Una salvedad
+a esto es que si haces cambios y los distribuyes, debes poner tus cambios bajo la misma licencia para que otros
+puedan beneficiarse. GPLv2 dice también que no puedes cobrar por distribuir el código fuente a menos que sean tus
+costos reales de hacerlo (por ejemplo, copiar a medios extraíbles).
+
+***
+
+## -> La Free Software Foundation y el Open Source Initiative:
+
+En el ámbito del código abierto, dos influencias prominentes son la Free Software Foundation (FSF)
+y la Open Source Initiative (OSI). La FSF, fundada en 1985 por Richard Stallman, aboga por el Software Libre,
+centrado en la libertad de compartir, estudiar y modificar el código fuente. Introduce el concepto de "copyleft",
+insistiendo en compartir cambios en el software libre. La FSF ha creado licencias como GPLv2 y GPLv3,
+que incluyen disposiciones específicas sobre la llamada "Tivoización".
+
+Por otro lado, la OSI, fundada en 1998 por Bruce Perens y Eric Raymond, aboga por el código abierto sin
+restricciones extremas. No tiene sus propias licencias, sino principios, aceptando diversas licencias
+de código abierto, como las de la familia BSD y MIT. Estas licencias permisivas no tienen las restricciones
+de copyleft de la FSF y permiten la inclusión en productos de software cerrado con atribución adecuada.
+
+***
+
+## ->Más Términos para lo Mismo: En lugar de afligirse por puntos más sensibles del código abierto frente
+
+al Software Libre, la comunidad ha comenzado a referirse a este concepto como Software Libre y
+de Código Abierto (FOSS). La palabra "libre" puede significar "gratuito como un almuerzo" (sin costo)
+o "libre como un discurso" (sin restricciones)
+
+***
+
+## ->Otros Esquemas de Concesión de Licencias:  Las licencias CC son:
+
+Attribution (CC BY) – al igual que la licencia BSD, puedes utilizar el contenido de la CC para cualquier uso,
+pero debes acreditar al titular los derechos de autor
+
+Attribution ShareAlike (CC BY-SA) – una versión copyleft de la licencia de atribución.
+Los trabajos derivadas deben compartirse bajo la misma licencia, mucho como en los ideales del Software Libre
+
+Attribution No-Derivs (CC BY-ND) – puedes redistribuir el contenido bajo las mismas condiciones como CC-BY,
+pero no lo puedes cambiar
+
+Attribution-NonCommercial (CC BY-NC) – al igual que CC BY, pero no lo puedes utilizar para los fines comerciales
+
+Attribution-NonCommercial-ShareAlike (CC-BY-NC-SA) – se basa en la licencia CC BY-NC,
+pero requiere que los cambios se compartan bajo la misma licencia.
+
+Attribution-NonCommercial-No-Derivs (CC-BY-NC-ND) – compartes el contenido para que se utilice con
+fines no comerciales, pero la gente no puede cambiar el contenido.
+
+No Rights Reservados (CC0) – esta es la versión de Creative Commons en el dominio público.
+
+Las licencias anteriores se pueden resumir como ShareAlike o sin restricciones,
+o si se permite o no el uso comercial o las derivaciones.
+
+
+***
+
+## ->Los Modelos del Negocio de Código Abierto:
+
+Al regalar software de forma gratuita, hay varias formas de generar ingresos:
+
+Venta de Soporte y Garantía: Ofrecer servicios de instalación, ayuda técnica y corrección
+de errores a quienes usan el software, actuando como consultor.
+
+Cobro por Servicios o Suscripciones: Ofrecer servicios adicionales o suscripciones mejoradas
+relacionadas con el software, como en el caso de MythTV, un proyecto de grabadora de vídeo digital de código abierto.
+
+Empaquetar con Hardware o Software Propietario: Comercializar hardware empaquetado con el software
+gratuito o agregar componentes de código cerrado para su venta conjunta con el software libre.
+Ejemplos incluyen dispositivos y sistemas integrados que utilizan Linux.
+
+Desarrollo de Código Abierto en el Ámbito Laboral: Desarrollar software de código abierto como parte
+de tu trabajo regular y convencer a tu empleador para permitir la liberación del código. Esto puede
+generar valor para otros y, al mismo tiempo, cumplir con tareas laborales.
+
+Creación de Empresas de Soporte y Productos: Algunos proyectos de código abierto se vuelven tan exitosos
+que sus creadores forman empresas para ofrecer soporte y vender productos relacionados. Ejemplo es Wireshark,
+cuyo creador fundó una empresa para respaldar el proyecto.
+
+Contratación de Desarrolladores por Empresas: Empresas que obtienen valor significativo de proyectos
+de código abierto a menudo contratan desarrolladores para trabajar en el software a tiempo completo.
+Ejemplos incluyen Google contratando al creador de Python y AT&T empleando a alguien dedicado a proyectos Ruby y Rails.
+
+Demostración de Habilidades y Atracción de Talento: El código abierto actúa como una vitrina para
+demostrar habilidades, sirviendo como una forma abierta de calificación. Tanto individuos como empresas
+pueden beneficiarse al compartir partes no críticas de su software interno de código abierto,
+atrayendo interés y talento de alta calidad.
